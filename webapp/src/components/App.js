@@ -1,14 +1,25 @@
 import React, { Component } from 'react';
 import '../assets/styles/index.css';
 import SkinCard from './SkinCard';
+import skins from '../data/EconInfo'
 
 class App extends Component {
+  generateCards(){
+    var cards = [];
+
+    for (let i = 0; i < 10; i++) {
+      
+      
+      cards.push(<SkinCard key={i} title={skins[i].name}/>)
+    }
+    return cards;
+  }
   render() {
+    console.log(skins);
+    
     return (
       <div className="blockinline">
-        <SkinCard title="This" />
-        <SkinCard title="is"/>
-        <SkinCard title="America"/>
+        {this.generateCards()}
       </div>
     );
   }

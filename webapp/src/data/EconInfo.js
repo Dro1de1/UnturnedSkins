@@ -1,4 +1,5 @@
-[
+
+var skins =[
   {
     "name": "Wind Up Key",
     "type": "Rare Backpack",
@@ -71981,3 +71982,4 @@
     "vehicle_id": 0
   }
 ]
+export default skins;
