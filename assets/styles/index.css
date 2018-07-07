@@ -1,0 +1,64 @@
+.container /* große Box */{
+    border: 1px solid #eee; /* Randfarbe */
+    background: #333; /* Hintergrundfarbe */
+    height: 600px;
+    width: 400px;
+    transition-duration: .7s;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url("Bane_1484_Cherryblossom_1024x1024_93.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-bottom: 4px;
+    font-size: 12px;
+
+}
+.container:hover {
+    transition-duration: .1s;
+    background: #444;
+    background-image: url("Backpack_Bandit_811.png");
+    background-image: url("Bane_1484_Cherryblossom_1024x1024_93.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120%;
+
+}
+.mythical {
+        background: red;
+}
+.container #rarity /* kleine Box mit farbigem Hintergrund */{
+    background:#ffbbcc; /* Hintergrundfarbe */
+    color: white; /* Textfarbe */	
+    height:30px;
+    width: 380px;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 19px;
+    line-height: 30px;
+}
+.container #header{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.container ._able {
+    background-color:#00ff00;
+    color:black;
+    height:30px;
+    width:185px;
+    border-radius: 15px;
+    line-height: 30px;
+    margin:5px;
+    vertical-align: bottom;
+    display: inline-block;
+}
+body {
+    background: #44444b;
+    display: block;
+    color: black;
+}
+#blockinline {
+    text-align: center;
+}
