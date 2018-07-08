@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../assets/styles/index.css';
-import { Button, Typography } from '@material-ui/core'
+import { Button, Typography, Paper, ExpansionPanelSummary, ExpansionPanelDetails, ExpansionPanel } from '@material-ui/core'
 
 class SkinCard extends Component {
     constructor(props){
@@ -19,7 +19,7 @@ class SkinCard extends Component {
     }
   render() {
     return (
-          <div className='container'>
+          /* <div className='container'>
             <Typography variant="headline" gutterBottom>
                 {this.state.skin.name}
             </Typography>
@@ -35,7 +35,31 @@ class SkinCard extends Component {
             <Button variant="outlined" onClick={() => this.changeTitle()}>
                 View ingame
             </Button>
-          </div>
+            
+          </div>*/
+            <Paper elevation={1} className='container'>
+            <Typography variant="headline" gutterBottom>
+                    <nobr className='Headline'>{this.state.skin.name}</nobr>
+                </Typography>
+                <Paper elevation={1} className='rarity' style={{background: "#"+this.state.skin.name_color}}>
+                    <Typography variant="body1" gutterBottom>
+                        {this.state.skin.type}
+                    </Typography>    
+                </Paper>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+            </Paper>
     );
   }
 }

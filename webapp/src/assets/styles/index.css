@@ -1,6 +1,6 @@
-.container /* große Box */{
-    border: 1px solid #eee; /* Randfarbe */
-    background: #333; /* Hintergrundfarbe */
+/*.container {
+    border: 1px solid #eee; 
+    background: #333;
     height: 600px;
     width: 400px;
     transition-duration: .7s;
@@ -25,12 +25,32 @@
     background-size: 120%;
 
 }
+.container:active {
+    background: #FFff00;
+}*/
+.container {
+    background-image: url("../img/3D_492.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    margin: 15px;
+    transition-duration:.2s;
+    display: inline-block;
+}
+.container:hover {
+    background-color: #b9b9b9;
+    background-size:90%;
+}
 .mythical {
         background: red;
 }
-.container #rarity /* kleine Box mit farbigem Hintergrund */{
-    background:#ffbbcc; /* Hintergrundfarbe */
-    color: white; /* Textfarbe */	
+.Headline {
+    font-size: 0.8em;
+}
+/*.container #rarity /* kleine Box mit farbigem Hintergrund {
+    background:#ffbbcc; /* Hintergrundfarbe 
+    color: white; /* Textfarbe 
     height:30px;
     width: 380px;
     margin: 10px auto;
@@ -38,7 +58,7 @@
     border-radius: 15px;
     font-size: 19px;
     line-height: 30px;
-}
+}*/
 .container #header{
     margin-top: 10px;
     margin-bottom: 0px;
@@ -54,16 +74,26 @@
     display: inline-block;
 }
 body {
-    background: #44444b;
+    background: #000000;
     display: block;
     color: black;
 }
 .blockinline {
     text-align: center;
+    margin: 0px;
 }
 .nmarketable {
     background: #FF0000;
 }
 .marketable {
     background: #00FF00;
+}
+.imgurs {
+    width: 100px;
+    height: 100px;
+    opacity: 100%;
+}
+.searcher {
+    right: 0px;
+    margin-left: 100px;
 }
