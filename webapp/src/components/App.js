@@ -10,7 +10,7 @@ class App extends Component {
     for (let i = 0; i < 10; i++) {
       
       
-      cards.push(<SkinCard key={i} title={skins[i].name}/>)
+      cards.push(<SkinCard key={i} skin={skins[i]} />)
     }
     return cards;
   }

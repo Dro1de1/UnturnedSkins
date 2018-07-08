@@ -44,7 +44,6 @@
     margin-bottom: 0px;
 }
 .container ._able {
-    background-color:#00ff00;
     color:black;
     height:30px;
     width:185px;
@@ -61,4 +60,10 @@ body {
 }
 .blockinline {
     text-align: center;
+}
+.nmarketable {
+    background: #FF0000;
+}
+.marketable {
+    background: #00FF00;
 }
