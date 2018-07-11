@@ -78,9 +78,9 @@ class SkinCard extends Component {
                         view ingame
                     </Typography>    
                 </Paper></a>
-                <a href="http://youtube.com/dro1de1"><Paper elevation={1} className='market'>
+                <a href="http://youtube.com/dro1de1"><Paper elevation={1} className='market' className={this.state.skin.item_effect? "goodable": "notable"}>
                     <Typography variant="body1" gutterBottom>
-                        {this.state.skin.type}
+                        Item Effect: {this.state.skin.item_effect}
                     </Typography>    
                 </Paper></a>
             </Paper>
