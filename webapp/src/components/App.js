@@ -19,16 +19,16 @@ class App extends Component {
     
     return (
     <div className="blockinline">
-      <a href="192.168.1.108:3000"><AppBar position="fixed" color="default" id="Header">
-        <Toolbar>
+      <AppBar position="fixed" color="default" id="Header">
+        <Toolbar><a href="192.168.1.108:3000">
           <Typography variant="title" color="inherit">
             UnturnedStock.tk
-          </Typography>
+          </Typography></a>
           <TextField className="searcher" id="search" label="Search field" type="search" margin="normal"/>
         </Toolbar> 
         
       </AppBar>
-      </a>
+      
       <br/>
       <br/>
       <br/>
