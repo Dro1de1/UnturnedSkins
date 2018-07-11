@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../assets/styles/index.css';
-import { Button, Typography, Paper, ExpansionPanelSummary, ExpansionPanelDetails, ExpansionPanel } from '@material-ui/core'
+import { Typography, Paper } from '@material-ui/core'
 
 class SkinCard extends Component {
     constructor(props){
@@ -59,6 +59,30 @@ class SkinCard extends Component {
                 <br/>
                 <br/>
                 <br/>
+                <br/>
+                <br/>
+                <br/>
+                
+                <a href="http://youtube.com/dro1de1"><Paper elevation={1} className='market' className={this.state.skin.marketable? "goodable": "notable"}>
+                    <Typography variant="body1" gutterBottom>
+                        {this.state.skin.marketable? "marketable": "non marketable"}
+                    </Typography>    
+                </Paper></a>
+                <a href="http://youtube.com/dro1de1"><Paper elevation={1} className='market' className={this.state.skin.scrapable? "goodable": "notable"}>
+                    <Typography variant="body1" gutterBottom>
+                        {this.state.skin.scrapable? "scrapable": "non scrapable"}
+                    </Typography>    
+                </Paper></a>
+                <a href="https://www.youtube.com/channel/UCb-alIHXpU_K7esFxmDL59Q"><Paper elevation={1} className='market' className={this.state.skin.video? "goodable": "notable"}>
+                    <Typography variant="body1" gutterBottom>
+                        view ingame
+                    </Typography>    
+                </Paper></a>
+                <a href="http://youtube.com/dro1de1"><Paper elevation={1} className='market'>
+                    <Typography variant="body1" gutterBottom>
+                        {this.state.skin.type}
+                    </Typography>    
+                </Paper></a>
             </Paper>
     );
   }

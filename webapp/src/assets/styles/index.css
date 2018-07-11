@@ -29,7 +29,7 @@
     background: #FFff00;
 }*/
 .container {
-    background-image: url("../img/3D_492.png");
+    background-image: url("../img/Axe_Fire_104_Multicam_1024x1024_10.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -74,19 +74,13 @@
     display: inline-block;
 }
 body {
-    background: #000000;
+    background: #616161;
     display: block;
-    color: black;
+    color: white;
 }
 .blockinline {
     text-align: center;
     margin: 0px;
-}
-.nmarketable {
-    background: #FF0000;
-}
-.marketable {
-    background: #00FF00;
 }
 .imgurs {
     width: 100px;
@@ -96,4 +90,28 @@ body {
 .searcher {
     right: 0px;
     margin-left: 100px;
+}
+a {
+    text-decoration: none;
+}
+.market {
+    width: 148px;
+    margin: 1px;
+    display: inline-block;
+    opacity: 50%;
+    text-shadow: 0px 0px 2px #ff0000;
+}
+.goodable {
+    text-shadow: 0px 0px 2px #0F0;
+    width: 148px;
+    margin: 1px;
+    display: inline-block;
+    opacity: 50%;
+}
+.notable {
+    text-shadow: 0px 0px 2px #ff0000;
+    width: 148px;
+    margin: 1px;
+    display: inline-block;
+    opacity: 50%;
 }
