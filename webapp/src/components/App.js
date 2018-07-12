@@ -33,7 +33,7 @@ class App extends Component {
       <br/>
       <br/>
         {this.generateCards()}
-        <img alt =""asdasd src="C:\Users\schad\OneDrive\Dokumente\GitHub\UnturnedSkins\webapp\src\assets\other img\gradient_blue.png"></img>
+        
       </div>
     );
   }
